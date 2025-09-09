@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            width: 300px;
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.2s;
+        }
+        .product:hover {
+            transform: scale(1.05);
+        }
+        .product img {
+            max-width: 100%;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 15px;
+        }
+        .product h2 {
+            font-size: 1.5em;
+            margin: 15px 0;
+        }
+        .product p {
+            font-size: 1em;
+            color: #666;
+        }
+        .product a {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #25D366;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .product a:hover {
+            background-color: #1ebc5b;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; padding: 20px 0;">Ventanas Modena</h1>
+    <div class="container">
+        <div class="product">
+            <img src="VENTANA-CORREDIZA-MODENA-150X150.jpg" alt="Producto 1">
+            <h2>Ventana Corrediza</h2>
+            <p>Alta prestacion, admite DVH 4-9-4, cierre lateral, Herrajes de alta prestacion 2,3 o 4 hojas</p>
+            <a href="https://wa.me/2235220206?text=Estoy%20interesado%20en%20una%20Ventana%20Corrediza%20Modena%0A%0Ahttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_4uBMKcyNo3mGGRYqJXWzh_8tV-MfT0xaiQ&s" target="_blank">Contactar por WhatsApp</a>
+        </div>
+        <div class="product">
+            <img src="OIP (1).jpg" alt="Producto 2">
+            <h2>Ventana de Abrir</h2>
+            <p>Doble contacto herrajes de alta prestacion 1 o 2 hojas de abrir, admite DVH 4-9-4</p>
+            <a href="https://wa.me/2235220206?text=Estoy%20interesado%20en%20una%20Ventana%20de%20Abrir%0A%0Adata:image/jpeg;base64,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" target="_blank">Contactar por WhatsApp</a>
+        </div>
+        <div class="product">
+            <img src="OIP (2).jpg" alt="Producto 3">
+            <h2>Oscilobatiente</h2>
+            <p>Herraje de alta prestacion, doble contacto, admite DVH 4-9-4</p>
+            <a href="https://wa.me/2235220206?text=Estoy%20interesado%20en%20una%20Ventana%20Oscilobatiente%0A%0Ahttps://http2.mlstatic.com/D_NQ_NP_662762-MLA50925321302_072022-O.webp" target="_blank">Contactar por WhatsApp</a>
+        </div>
+        <div class="product">
+            <img src="R2.jpg" alt="Producto 3">
+            <h2>Proyectante/Banderola</h2>
+            <p>Herraje de alta prestacion, doble contacto, admite DVH 4-9-4</p>
+            <a href="https://wa.me/2235220206?text=Estoy%20interesado%20en%20una%20Ventana%20Proyectante/Banderola%0A%0Adata:image/jpeg;base64,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" target="_blank">Contactar por WhatsApp</a>
+        </div>
+        <div class="product">
+            <img src="PATAGONICA1-1-1024x647.jpg" alt="Producto 3">
+            <h2>Patagonica</h2>
+            <p>Herraje de alta prestacion, doble contacto, admite DVH 4-9-4</p>
+            <a href="https://wa.me/2235220206?text=Estoy%20interesado%20en%20una%20Ventana%20Patagonica%0A%0Ahttps://http2.mlstatic.com/D_NQ_NP_985861-MLA76444219209_052024-O.webp" target="_blank">Contactar por WhatsApp</a>
+        </div>
+    </div>
+</body>
+</html>
