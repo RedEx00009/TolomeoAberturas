@@ -3,13 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catálogo Principal</title>
+    
+    <!-- SEO -->
+    <title>Tolomeo Aberturas | Catálogo de Ventanas, Puertas y Aberturas</title>
+    <meta name="description" content="Tolomeo Aberturas ofrece aberturas en aluminio, madera y chapa. Fabricación y venta de ventanas, puertas y frentes de alta calidad en Mar del Plata.">
+    <meta name="keywords" content="aberturas, aluminio, madera, chapa, ventanas, puertas, mar del plata, tolomeo, vidrios">
+    <meta name="author" content="Tolomeo Aberturas">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph (para compartir en redes sociales) -->
+    <meta property="og:title" content="Tolomeo Aberturas | Catálogo Principal">
+    <meta property="og:description" content="Explora nuestro catálogo de aberturas en aluminio, madera y chapa. Calidad y diseño para tu hogar.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://redex00009.github.io/TolomeoAberturas/">
+    <!-- Cambia la imagen cuando tengas una -->
+    <meta property="og:image" content="https://redex00009.github.io/TolomeoAberturas/ejemplo.jpg">
+
+    <!-- Estilos -->
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f0f0f0;
             text-align: center;
             padding: 50px;
+        }
+        h1 {
+            color: #333;
         }
         .category {
             margin: 20px;
@@ -20,39 +39,49 @@
             width: 200px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease;
+        }
+        .category:hover {
+            transform: scale(1.05);
         }
         .category a {
             text-decoration: none;
             color: #333;
-            font-size: 1.5em;
+            font-size: 1.2em;
+            font-weight: bold;
         }
         .category img {
-            max-width: 100px; /* Adjust the size as needed */
+            max-width: 100px;
             margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
-    <h1>Tolomeo Aberturas</h1>
+    <h1>Catálogo Principal - Tolomeo Aberturas</h1>
+    <p>Selecciona el material de aberturas que deseas explorar:</p>
+    
     <div class="category">
         <a href="aluminio.html">
-            <br>
-            Aluminio
+            <img src="aluminio.jpg" alt="Aberturas de aluminio">
+            <br>Aluminio
         </a>
     </div>
+    
     <div class="category">
         <a href="madera.html">
-            <br>
-            Madera
+            <img src="madera.jpg" alt="Aberturas de madera">
+            <br>Madera
         </a>
     </div>
+    
     <div class="category">
         <a href="chapa.html">
-            <br>
-            Chapa
+            <img src="chapa.jpg" alt="Aberturas de chapa">
+            <br>Chapa
         </a>
-    
+    </div>
 </body>
 </html>
+
 
 
